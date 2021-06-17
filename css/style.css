@@ -15,14 +15,13 @@ header{
     width: 100%;
     height: 70px;
     background-color: #3161E0 ;
-    position: fixed;
-    z-index: 999;
+
     top: 0;
     line-height: 70px;
     text-align: center;
 }
 
-.nav,.buttons{
+.nav , .buttons{
     display: inline-block;
 }
 
@@ -49,11 +48,44 @@ a, i{
 .buttons{
     height: 40px;
     width: 75px;
-    background-color: white;
-    color: black;
     line-height: 40px;
     border-radius: 50px;
-    
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
 
+.b-black{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+}
 
+.b-white{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.centered{
+    height: 750px;
+    text-align: center;
+    background-image:url(img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+#title{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.par-1{
+    width: 780px;
+    margin: auto;
+    padding-bottom: 50px;
 }
