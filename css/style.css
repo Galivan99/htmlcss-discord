@@ -89,3 +89,21 @@ a, i{
     margin: auto;
     padding-bottom: 50px;
 }
+
+.section-1{
+    margin-top: 100px;
+    height: 100%;
+    width: 1300px;
+    margin: auto;
+    
+}
+
+#first_img{
+    float: left;
+}
+.column{
+    margin-top: 50px;
+    height: 440px;
+    width: 400px;
+    float: right;
+}
